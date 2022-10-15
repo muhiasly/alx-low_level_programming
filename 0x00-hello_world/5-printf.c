@@ -3,7 +3,7 @@
 /**
  * Main - print a C program using printf
  *
- * Return 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
