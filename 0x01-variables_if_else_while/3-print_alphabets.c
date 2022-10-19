@@ -4,6 +4,7 @@
  *
  * Return: 0 (Success)
  */
+
 int main(void)
 {
 	char c;
@@ -12,13 +13,16 @@ int main(void)
 
 	c = 'a';
 	d = 'A';
-	while (c <= 'z') {
+	while
+		(c <= 'z') {
 		putchar(c);
 		c++;
 	}
-	while (d <= 'z') {
+	while
+		(d <= 'Z') {
 		putchar(d);
 		d++;
 	}
-		return (0);
+	putchar('\n');
+	return (0);
 }
