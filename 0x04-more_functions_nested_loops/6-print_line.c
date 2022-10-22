@@ -2,7 +2,7 @@
 
 /**
  * print_line - a function that draws a straight line in the terminal
- * @n: the number of _ characters to be printed
+ * @n: the number of '_' characters to be printed
  */
 
 void print_line(int n)
@@ -11,7 +11,7 @@ void print_line(int n)
 
 	if (n > 0)
 	{
-		for (line = 0; line <= n; line++)
+		for (line = 0; line < n; line++)
 		{
 			_putchar('_');
 		}
