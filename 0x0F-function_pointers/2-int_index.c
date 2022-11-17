@@ -6,7 +6,7 @@
  * @array: array to search integer
  * @size: size of the array
  * @cmp: pointer to the comparing function
- * @return: integer
+ * return:index of an element
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
