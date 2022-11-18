@@ -4,7 +4,7 @@
  * op_add - calculate sum of two int
  * @a: first int
  * @b: second int
- * return: returns the sum of a and b
+ * Return: returns the sum of a and b
  */
 
 int op_add(int a, int b)
@@ -17,7 +17,7 @@ int op_add(int a, int b)
  * @a: first integer
  * @b: second integer
  *
- * return: returns the difference of a and b
+ * Return: returns the difference of a and b
  */
 
 int op_sub(int a, int b)
@@ -30,7 +30,7 @@ int op_sub(int a, int b)
  * @a: first integer
  * @b: second integer
  *
- * return: returns the product of a and b
+ * Return: returns the product of a and b
  */
 
 int op_mul(int a, int b)
@@ -43,7 +43,7 @@ int op_mul(int a, int b)
  * @a: first integer
  * @b: second integer
  *
- * return: returns the result of the division of a by b
+ * Return: returns the result of the division of a by b
  */
 
 int op_div(int a, int b)
@@ -56,7 +56,7 @@ int op_div(int a, int b)
  * @a: first integer
  * @b: second integer
  *
- * return: returns the remainder of the division of a by b
+ * Return: returns the remainder of the division of a by b
  */
 
 int op_mod(int a, int b)
